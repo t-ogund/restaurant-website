@@ -1,0 +1,436 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.splash {
+    background-image: url("img/table.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.res-btn {
+    color: black;
+    text-decoration: none;
+}
+
+.res-btn:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.res-btn:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.top-nav {
+    opacity: .8;
+    /* position: absolute; */
+}
+
+.top-nav-ul, a {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.hero-info, .menu-categories {
+    display: flex;
+    padding: 0;
+
+}
+
+.info {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.hero-button {
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    /* background-color:rgba(0,0,0,0); */
+}
+
+.hero-list {
+    list-style-type: none;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+/* .text-container {
+    display: flex;
+    margin-top: 200px;
+} */
+
+.about {
+    height: 80%;
+    margin-top: 50px;
+}
+
+.about-content-row {
+    padding-top: 75px;
+}
+
+#about {
+    margin-top: 50px;
+}
+
+/* .left {
+    
+} */
+
+.carousel {
+
+    height: 400px;
+    
+    }
+    
+    .carousel-inner, .item, img {
+    
+    height:350px;
+    
+    /* object-fit: contain; */
+    background-size: contain;
+    
+    }
+
+    .about-text {
+        text-align: center;
+        animation-name: about-info;
+        animation-duration: 3s;
+        position: relative;
+        animation-fill-mode: forwards;
+        
+    }
+
+    @keyframes about-info {
+        0% {top: -200px; opacity: 0}
+        100% {top: 0px; opacity: 1}
+    }
+
+    .hero-text {
+        text-align: center;
+        animation-name: about-info;
+        animation-duration: 2s;
+        position: relative;
+        animation-fill-mode: forwards;
+    }
+
+    .right {
+        padding: 10px 20px 20px 10px;
+    }
+
+    .right > h3 {
+        margin-bottom: 50px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .right > p {
+        margin-bottom: 20px;
+        line-height: 2;
+
+    }
+
+    #about-button {
+        border: 1px solid black;
+    }
+
+    /* .menu-container {
+        background-color: rgb(205, 231, 247);
+    } */
+
+    .menu {
+        margin-top: 50px;
+        padding: 100px 0 100px 0;
+        height: 100%;
+        background-color: rgb(215, 221, 230);
+    }
+
+    .menu-content-row {
+        padding-top: 75px;
+    }
+
+    .menu-header {
+        text-align: center;
+    }
+
+    /* .menu-categories {
+        display: flex;
+
+    } */
+
+    .menu-categories > li {
+        list-style-type: none;
+        font-size: 1.5rem;
+    }
+
+    .menu-row {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid black;
+        /* border-bottom: 1px solid black; */
+    }
+
+    .left-menu {
+        width: 75%;
+    }
+
+    .menu-image {
+        width: 60px;
+        height: 60px;
+        margin-left: 2%;
+    }
+
+    .menu-description {
+        margin: 25px;
+    }
+
+    #all {
+        cursor: pointer;
+    }
+
+    #main {
+        cursor: pointer;
+    }
+
+    #dessert {
+        cursor: pointer;
+    }
+
+    #lunch {
+        cursor: pointer;
+    }
+
+    .hideItems {
+        display: none;
+    }
+
+    .showItems {
+        display: run-in;
+    }
+
+    .menu-item-bottom {
+        border-bottom: 1px solid black;
+    }
+
+    .gallery {
+        margin-top: 100px;
+    }
+
+    .gallery-image {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+
+    .gallery-image:hover {
+        background-color: black;
+      }
+      
+.reservation {
+    height: 100%;
+    padding: 100px 0 100px 0;
+}
+
+.reservation-background-image {
+    background-image: url("img/res-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+
+.reservation-title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.form-input {
+    padding: 25px;
+    background-color:rgba(0,0,0,0);
+    color: white;
+}
+
+.form-input:focus {
+    padding: 25px;
+    background-color:rgba(0,0,0,0);
+    color: white;
+}
+
+select:active {
+    color: white;
+}
+
+option:not(:first-of-type) {
+    color: black;
+  }
+
+option:disabled {
+    color: white;
+}
+
+.select-input {
+    height: 52px;
+    background-color:rgba(0,0,0,0);
+}
+
+.select-input:focus {
+    height: 52px;
+    background-color:rgba(0,0,0,0);
+    color: white;
+}
+
+.res-textarea {
+    height: 150px;
+    width: 100%;
+}
+
+.form-row {
+    background: none;
+}
+
+.reservation ::placeholder {
+    color: white;
+}
+
+.services {
+    background-color: rgb(215, 221, 230);
+    padding-top: 100px;
+}
+
+.our-services {
+    text-align: center;
+    margin-bottom: 50px;
+    height: 100%;
+}
+
+.private-events, .delivery {
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
+.services-left {
+    background-color: yellow;
+    text-align: center;
+}
+
+.services-right {
+    background-color: red;
+    text-align: center;
+}
+
+.services-para {
+    padding: 0 70px 0 70px;
+    line-height: 2em;
+}
+
+
+.news {
+    
+}
+
+.news-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.news-picture-row {
+    
+}
+
+.card-img-top {
+    
+}
+
+.bottom-ribbon {
+    margin-top: 100px;
+    /* height: 350px; */
+
+}
+
+/* .bottom-ribbon-sections {
+    border-left: 1px solid gray;
+} */
+
+.bottom-ribbon-sections, .circle {
+    margin-top: 10%;
+}
+
+.bottom-ribbon-sections li, .bottom-ribbon-header h5, .email-label, .newsletter-description p {
+    list-style-type: none;
+    color: white;
+}
+
+.bottom-ribbon-header h5 {
+    text-align: center;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.circle > h4 {
+    color: white;
+}
+
+.contact-info .fa-map-marker-alt {
+    padding-right: 5px;
+}
+
+.contact-info .fa-clock {
+    padding-right: 5px;
+}
+
+.contact-info .fa-phone-alt {
+    padding-right: 5px;
+}
+
+.contact-info .fa-globe-africa {
+    padding-right: 5px;
+}
+
+.map-container {
+    width: 100%;
+}
+
+.gallery-content-row, .reservation-content-row, .services-content-row, .news-content-row, .gallery-content-row {
+    padding-top: 75px;
+}
+
+/* .reservation-content-row {
+    padding-top: 75px;
+}
+
+.services-content-row {
+    padding-top: 75px;
+}
+
+.news-content-row {
+    padding-top: 75px;
+}
+
+.gallery-content-row {
+    padding-top: 75px;
+} */
