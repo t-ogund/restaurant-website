@@ -204,10 +204,6 @@ h1 {
         border-bottom: 1px solid black;
     }
 
-    .gallery {
-        /* margin-top: 50px; */
-    }
-
     .gallery-image {
         object-fit: cover;
         width: 100%;
