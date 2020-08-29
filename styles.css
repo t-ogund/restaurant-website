@@ -34,7 +34,6 @@ body {
 
 .top-nav {
     opacity: .8;
-    /* position: absolute; */
 }
 
 .top-nav-ul, a {
@@ -66,7 +65,6 @@ h1 {
     background-color: white;
     color: black;
     border: none;
-    /* background-color:rgba(0,0,0,0); */
 }
 
 .hero-list {
@@ -75,10 +73,6 @@ h1 {
     color: white;
     font-weight: bold;
 }
-/* .text-container {
-    display: flex;
-    margin-top: 200px;
-} */
 
 .about {
     height: 80%;
@@ -93,23 +87,12 @@ h1 {
     margin-top: 50px;
 }
 
-/* .left {
-    
-} */
-
 .carousel {
-
     height: 400px;
-    
     }
-    
     .carousel-inner, .item, img {
-    
     height:350px;
-    
-    /* object-fit: contain; */
     background-size: contain;
-    
     }
 
     .about-text {
@@ -153,10 +136,6 @@ h1 {
         border: 1px solid black;
     }
 
-    /* .menu-container {
-        background-color: rgb(205, 231, 247);
-    } */
-
     .menu {
         margin-top: 50px;
         padding: 100px 0 100px 0;
@@ -172,11 +151,6 @@ h1 {
         text-align: center;
     }
 
-    /* .menu-categories {
-        display: flex;
-
-    } */
-
     .menu-categories > li {
         list-style-type: none;
         font-size: 1.5rem;
@@ -186,7 +160,6 @@ h1 {
         display: flex;
         justify-content: space-between;
         border-top: 1px solid black;
-        /* border-bottom: 1px solid black; */
     }
 
     .left-menu {
@@ -232,7 +205,7 @@ h1 {
     }
 
     .gallery {
-        margin-top: 100px;
+        /* margin-top: 50px; */
     }
 
     .gallery-image {
@@ -276,7 +249,7 @@ h1 {
     color: white;
 }
 
-select:active {
+select:active important {
     color: white;
 }
 
@@ -314,7 +287,7 @@ option:disabled {
 
 .services {
     background-color: rgb(215, 221, 230);
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .our-services {
@@ -343,36 +316,22 @@ option:disabled {
     line-height: 2em;
 }
 
-
-.news {
-    
-}
-
 .news-title {
     text-align: center;
     margin-bottom: 50px;
 }
 
-.news-picture-row {
-    
-}
-
-.card-img-top {
-    
-}
-
 .bottom-ribbon {
     margin-top: 100px;
-    /* height: 350px; */
-
 }
-
-/* .bottom-ribbon-sections {
-    border-left: 1px solid gray;
-} */
 
 .bottom-ribbon-sections, .circle {
     margin-top: 10%;
+}
+
+.bottom-ribbon-sections ul {
+    padding: 0;
+    text-align: center;
 }
 
 .bottom-ribbon-sections li, .bottom-ribbon-header h5, .email-label, .newsletter-description p {
@@ -419,18 +378,6 @@ option:disabled {
     padding-top: 75px;
 }
 
-/* .reservation-content-row {
-    padding-top: 75px;
+.card-text {
+    text-align: center;
 }
-
-.services-content-row {
-    padding-top: 75px;
-}
-
-.news-content-row {
-    padding-top: 75px;
-}
-
-.gallery-content-row {
-    padding-top: 75px;
-} */

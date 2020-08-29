@@ -16,15 +16,10 @@ let menu = {
     lunch: [chickenBreast, salad]
 }
 
-
 all.addEventListener("click", function() {
-    for (let i = 0; i < menu.all.length; i++) {
-
-       
+    for (let i = 0; i < menu.all.length; i++) {    
             menu.all[i].classList.remove("hideItems");
             menu.all[i].classList.add("showItems");
-        
-
     console.log(menu.all[i])
     menu.all[i].classList.add("showItems"); 
     }
