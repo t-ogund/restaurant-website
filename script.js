@@ -9,6 +9,8 @@ const braisedBeef = document.getElementById("braisedBeef");
 const chickenBreast = document.getElementById("chickenBreast");
 const salad = document.getElementById("salad");
 
+const dropdownText = document.getElementsByClassName("dropdown-text");
+
 let menu = {
     all: [cupcake, sesameChicken, braisedBeef, chickenBreast, salad],
     main: [sesameChicken, braisedBeef],
@@ -105,4 +107,6 @@ lunch.addEventListener("click", function() {
         salad.classList.add("showItems");
     }
 })
+
+// dropdownText[0].style.color = "white"
 
