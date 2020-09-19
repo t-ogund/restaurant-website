@@ -3,10 +3,16 @@ html {
 }
 
 body {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: none;
     font-family: 'Montserrat', sans-serif;
+}
+
+.full-container {
+    overflow: auto;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
 }
 
 .splash {
