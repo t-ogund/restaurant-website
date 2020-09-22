@@ -282,6 +282,16 @@ option:disabled {
     width: 100%;
 }
 
+.res-col {
+    margin-top: -8px;
+}
+
+@media screen and (max-width: 767px) {
+    .res-col {
+        margin-top: -15px;
+    }
+}
+
 .form-row {
     background: none;
 }
