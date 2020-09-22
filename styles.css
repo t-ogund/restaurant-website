@@ -176,9 +176,10 @@ h1 {
     }
 
     .menu-image {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
         margin-left: 2%;
+        object-fit: cover;
     }
 
     .menu-description {
